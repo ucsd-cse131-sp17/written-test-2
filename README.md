@@ -2,6 +2,10 @@
 
 # Overview
 
+The assignment link is available at:
+
+https://classroom.github.com/assignment-invitations/828c492071d5271ef1e7858b1ba87061
+
 All work on this test is to be done alone.  If you look things up on the Web,
 cite them.  You can't get help from classmates, tutors, friends, or mentors on
 answering the content of these questions.  If you're stuck on some technical
