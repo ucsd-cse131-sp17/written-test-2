@@ -1,4 +1,22 @@
-# Variable-arity Functions
+# Written Test 2
+
+## Logistics
+
+All work on this test is to be done alone.  If you look things up on the Web,
+cite them.  You can't get help from classmates, tutors, friends, or mentors on
+answering the content of these questions.  If you're stuck on some technical
+issue (like one of the provided compilers doesn't run, or you aren't sure about
+some OCaml syntax), ask the staff.  Don't post public questions about this
+assignment on Piazza.
+
+You'll submit all your answers in plain text in a file in this directory, to
+each question's corresponding text file, and push by the deadline. For
+example, the answer of the question 1 should go to `q1.txt`. *Please wrap the
+text at some reasonable amount*; 70-90 characters per line is useful.
+
+The deadline is *TBD*
+
+# 1. Variable-arity Functions
 
 Many languages support variable-arity functions. For example, in Python, an
 asterisk before the final argument indicates that it will hold all additional
@@ -28,7 +46,7 @@ make this work.  Discuss at least:
 - What heap or stack representations would change (if anything)
 
 
-# When to Garbage Collect
+# 2. When to Garbage Collect
 
 In the Garter assignment, we trigger collection only when out of memory. Some
 languages, like Java, provide a runtime function that triggers garbage
@@ -41,7 +59,7 @@ Egg-Eater.  Are there any benefits to running the garbage collector before the
 heap is full, and/or triggered by the user's program?  Why or why not?
 
 
-# Strings
+# 3. Strings
 
 Consider adding ASCII strings to Egg-Eater.
 
@@ -70,7 +88,7 @@ Discuss at least:
   representation)
 
 
-# Variable Assignment and Closures
+# 4. Variable Assignment and Closures
 
 We discussed in class how closures store copies of values from the environment
 in which they were created.
