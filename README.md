@@ -21,7 +21,7 @@ text at some reasonable amount**; 70-90 characters per line is useful.
 
 The deadline is 11:59PM on Wednesday, June 7.
 
-# Variable-arity Functions
+# 1. Variable-arity Functions
 
 Many languages support variable-arity functions. For example, in Python, an
 asterisk before the final argument indicates that it will hold all additional
