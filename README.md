@@ -11,10 +11,10 @@ assignment on Piazza.
 
 You'll submit all your answers in plain text in a file in this directory, to
 each question's corresponding text file, and push by the deadline. For
-example, the answer of the question 1 should go to `q1.txt`. *Please wrap the
-text at some reasonable amount*; 70-90 characters per line is useful.
+example, the answer of the question 1 should go to `q1.txt`. **Please wrap the
+text at some reasonable amount**; 70-90 characters per line is useful.
 
-The deadline is *TBD*
+The deadline is **TBD**
 
 # 1. Variable-arity Functions
 
