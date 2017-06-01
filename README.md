@@ -1,13 +1,12 @@
 # Written Test 2
 
-## Logistics
+# Overview
 
 All work on this test is to be done alone.  If you look things up on the Web,
 cite them.  You can't get help from classmates, tutors, friends, or mentors on
 answering the content of these questions.  If you're stuck on some technical
-issue (like one of the provided compilers doesn't run, or you aren't sure about
-some OCaml syntax), ask the staff.  Don't post public questions about this
-assignment on Piazza.
+issue, ask the staff.  Don't post public questions about this assignment on
+Piazza.
 
 You'll submit all your answers in plain text in a file in this directory, to
 each question's corresponding text file, and push by the deadline. For
@@ -16,9 +15,10 @@ text at some reasonable amount**; 70-90 characters per line is useful.
 
 **The size limit for each question is 100 lines / 8000 characters.**
 
-The deadline is **TBD**
+The deadline is 11:59PM on Wednesday, June 7.
 
-# 1. Variable-arity Functions
+# Variable-arity Functions
+>>>>>>> .,
 
 Many languages support variable-arity functions. For example, in Python, an
 asterisk before the final argument indicates that it will hold all additional
