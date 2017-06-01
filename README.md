@@ -16,9 +16,9 @@ last parameter. This should evaluate to (2, 3), for instance:
 
 Assuming the parser is updated for you, and the decl datatype is exended to:
 
-  type decl
-    | DFun of string * string list * expr
-    | DVarFun of string * string list * string * expr
+    type decl
+      | DFun of string * string list * expr
+      | DVarFun of string * string list * string * expr
 
 Describe what in the implementation of the compiler you would need to change to
 make this work.
