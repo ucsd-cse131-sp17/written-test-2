@@ -14,6 +14,8 @@ each question's corresponding text file, and push by the deadline. For
 example, the answer of the question 1 should go to `q1.txt`. **Please wrap the
 text at some reasonable amount**; 70-90 characters per line is useful.
 
+**The size limit for each question is 100 lines / 8000 characters.**
+
 The deadline is **TBD**
 
 # 1. Variable-arity Functions
