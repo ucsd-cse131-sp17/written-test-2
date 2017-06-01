@@ -28,7 +28,9 @@ make this work.
 
 In the Garter assignment, we trigger collection only when out of memory. Some
 languages, like Java, provide a runtime function that triggers garbage
-collection manually: System.gc() [link]
+collection manually:
+
+https://docs.oracle.com/javase/7/docs/api/java/lang/System.html#gc()
 
 For simplicity, assume the mark/compact implementation for the collector as in
 Egg-Eater.  Are there any benefits to running the garbage collector before the
