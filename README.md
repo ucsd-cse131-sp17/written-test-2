@@ -21,7 +21,11 @@ Assuming the parser is updated for you, and the decl datatype is exended to:
       | DVarFun of string * string list * string * expr
 
 Describe what in the implementation of the compiler you would need to change to
-make this work.
+make this work.  Discuss at least:
+
+- What in `compile_expr` would change (if anything)
+- What in `compile_decl` would change (if anything)
+- What heap or stack representations would change (if anything)
 
 
 # When to Garbage Collect
