@@ -43,6 +43,14 @@ Assuming the parser is updated for you, and the decl datatype is exended to:
       | DFun of string * string list * expr
       | DVarFun of string * string list * string * expr
 
+**The function definition above would parse to:**
+
+    DVarFun("f", ["x"], "y", EId("y"))
+    
+**Note that the parser for `EApp` is unchanged, so the application expression above would still parse to:**
+    
+    EApp("f", [ENum(1); ENum(2); ENum(3)])
+
 Describe what in the implementation of the compiler you would need to change to
 make this work.  Discuss at least:
 
@@ -60,13 +68,13 @@ collection manually:
 https://docs.oracle.com/javase/7/docs/api/java/lang/System.html#gc()
 
 For simplicity, assume the mark/compact implementation for the collector as in
-Egg-Eater.  Are there any benefits to running the garbage collector before the
+~~Egg-Eater~~Garter.  Are there any benefits to running the garbage collector before the
 heap is full, and/or triggered by the user's program?  Why or why not?
 
 
 # 3. Strings
 
-Consider adding ASCII strings to Egg-Eater.
+Consider adding ASCII strings to ~~Egg-Eater~~Garter.
 
 They will be parsed into a new expression form:
 
@@ -89,7 +97,7 @@ Discuss at least:
 - How references to strings would be represented
 - How an `EStr` expression would be compiled
 - Necessary changes to the `+` and `EGetItem` cases in the compiler
-- How strings would interaction with garbage collection (consider the heap
+- How strings would interact with garbage collection (consider the heap
   representation)
 
 
