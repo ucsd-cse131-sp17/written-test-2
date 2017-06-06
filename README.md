@@ -87,7 +87,7 @@ In addition, consider two extensions to the language:
 both.  When concatenating strings, a new string is produced
 2.  The `EGetItem` expression, when used on a string in the tuple position,
 should return a one-character string corresponding to the character at that
-location in the string.  So, for example, `"abcd"[1]"` evaluates to `"b"`.  If
+location in the string.  So, for example, `"abcd"[1]` evaluates to `"b"`.  If
 the index is out of bounds, an error is signaled.
 
 Discuss at least:
